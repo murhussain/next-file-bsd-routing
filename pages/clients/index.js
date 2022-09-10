@@ -2,14 +2,10 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 
 function ClientsPage() {
-  const router = useRouter();
-
   const clients = [
     {id: "max", name: "Maximilian"},
     {id: "manu", name: "Manuel"},
   ];
-
-  console.log(router.query)
 
   return (
     <div>
